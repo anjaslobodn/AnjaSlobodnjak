@@ -16,7 +16,7 @@ namespace LOTO_aplikacija
             UplaceniBrojevi = new List<int>();
             DobitniBrojevi = new List<int>();
         }
-        public bool UnesiUplaceneBrojeve(List <string> korisnickeVrijednosti)
+        public bool UnesiUplaceneBrojeve(List<string> korisnickeVrijednosti)
         {
             bool provjeraVrijednosti = false;
             UplaceniBrojevi.Clear();

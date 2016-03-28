@@ -23,13 +23,13 @@ namespace LOTO_aplikacija
         private void btnUplati_Click(object sender, EventArgs e)
         {
             List<string> vrijednosti = new List<string>();
-            vrijednosti.Add(txtDobitniBroj1.Text);
-            vrijednosti.Add(txtDobitniBroj2.Text);
-            vrijednosti.Add(txtDobitniBroj3.Text);
-            vrijednosti.Add(txtDobitniBroj4.Text);
-            vrijednosti.Add(txtDobitniBroj5.Text);
-            vrijednosti.Add(txtDobitniBroj6.Text);
-            vrijednosti.Add(txtDobitniBroj7.Text);
+            vrijednosti.Add(txtUplaceniBroj1.Text);
+            vrijednosti.Add(txtUplaceniBroj2.Text);
+            vrijednosti.Add(txtUplaceniBroj3.Text);
+            vrijednosti.Add(txtUplaceniBroj4.Text);
+            vrijednosti.Add(txtUplaceniBroj5.Text);
+            vrijednosti.Add(txtUplaceniBroj6.Text);
+            vrijednosti.Add(txtUplaceniBroj7.Text);
 
             bool ispravnaKombinacija = loto.UnesiUplaceneBrojeve(vrijednosti);
             if(ispravnaKombinacija == true)
